@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test Methods">
+	<test name="Running Specific Methods from test">
+		<classes>
+			<class name="google.GoogleLinks">
+				<methods>
+					<exclude name="About"/>
+					<exclude name="Gmail"/>
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>

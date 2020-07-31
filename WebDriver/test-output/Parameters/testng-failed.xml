@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Parameters]">
+  <parameter name="pwd" value="seed"/>
+  <parameter name="un" value="seed"/>
+  <test name="Sending Parameters by xml(failed)">
+    <classes>
+      <class name="testNG.EchoTrackParam">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+          <include name="afterMethod"/>
+          <include name="echoTrakLogin"/>
+        </methods>
+      </class> <!-- testNG.EchoTrackParam -->
+    </classes>
+  </test> <!-- Sending Parameters by xml(failed) -->
+</suite> <!-- Failed suite [Parameters] -->

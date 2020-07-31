@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Test Suite]">
+  <test name="Multiple Tests(failed)">
+    <classes>
+      <class name="testNG.FirtTest">
+        <methods>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- testNG.FirtTest -->
+      <class name="google.GoogleLinks">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="Gmail"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- google.GoogleLinks -->
+    </classes>
+  </test> <!-- Multiple Tests(failed) -->
+</suite> <!-- Failed suite [Test Suite] -->

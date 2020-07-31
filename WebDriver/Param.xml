@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Parameters" verbose="1">
+	<parameter name="un" value="seed"/>
+	<parameter name="pwd" value="seed"/>
+	<test name="Sending Parameters by xml">
+		<classes>
+			<class name="testNG.EchoTrackParam"/>
+		</classes>
+	</test>
+</suite>
